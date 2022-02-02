@@ -54,7 +54,7 @@ body {
   overflow-y: auto;
   overscroll-behavior: contain;
   font-size: 1.6rem;
-  /* font-family: ${primaryFont}; */
+  font-family: Pretendard, 'Noto Sans KR', sans-serif;
 }
 
 body *,
@@ -103,7 +103,7 @@ input,
 textarea,
 button {
   font-size: 1.6rem;
-  /* font-family: ${primaryFont}; */
+  font-family: Pretendard, 'Noto Sans KR', sans-serif;
 }
 
 a,
@@ -140,11 +140,11 @@ select {
 [type='number'] {
   appearance: textfield;
 
-  /* &::-webkit-outer-spin-button,
+  &::-webkit-outer-spin-button,
   &::-webkit-inner-spin-button {
     margin: 0;
     appearance: none;
-  } */
+  }
 }
 
 /* 우선순위가 꼬여서 임시 주석 처리 */
@@ -215,9 +215,9 @@ button[disabled] {
     -webkit-text-fill-color 스타일은 inherit 속성이 적용되지 않아서
     각 컴포넌트에 컬러값으로 적용됨
   */
-/* input,
+input,
 textarea {
   &:disabled {
     opacity: 1;
   }
-} */
+}
